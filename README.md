@@ -13,6 +13,8 @@ Este projeto não é apenas um script de transferência; ele implementa padrões
 * **Buffer de Carga & Upsert:** Implementação de um buffer que acumula registros para realizar inserções em lote dentro de transações ACID, utilizando `ON CONFLICT DO UPDATE` para garantir que dados novos sejam inseridos e dados antigos sejam atualizados sem duplicidade.
 * **Observabilidade Avançada:** Logs estruturados com **Winston** (separados por Console e Arquivo) e um sistema de alertas de erro simulado, demonstrando prontidão para monitoramento em ambiente de produção.
 * **Resiliência:** Tratamento de erros em camadas (API, Business Logic e Database) com rollback automático em caso de falha no lote de dados.
+<br>
+<img width="1794" height="748" alt="code 2" src="https://github.com/user-attachments/assets/f5d9dddf-17c8-445a-9b73-2c9c1fdabce7" />
 
 ## 🛠️ Tecnologias Utilizadas
 
